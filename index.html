@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Okojie | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Benjamin Okojie</h1>
+        <p>Hello, I’m a freelancer developer, currently studying computer science at the university of Laurier, and graduated with a diploma for web and app development from Fanshawe college.</p>
+    </section>
+
+    <section id="about">
+        <div class="photo">
+            <img src="Untitled_Artwork.png" alt="Your Photo">
+        </div>
+        <div class="text">
+            <h2>A bit more about myself</h2>
+            <p>Outside of programming, I enjoy playing and watching soccer. My favourite team chelsea, unfortunately is going through "Rebuilding". 
+                I also love drawing, I picked it up during the pandemic and it's great to see how far my art has come since i started. </p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project">
+                <div class="image-stack">
+                    <img src="MDM2.png" alt="Project 1 Large Image">
+                </div>
+                <div class="content">
+                    <h3>MDMG</h3>
+                    <p>A construction website I built for MDMG. A construction company located in the GTA. Using HTML CSS and Javascript for animations and content loading. </p>
+                    <img src="MDMG1.png" alt="Project 1 Small Image" class="small-image">
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="image-stack">
+                    <img src="NASA potd.png" alt="Project 2 Top Image">
+                    <!-- <img src="NASAPOTD2.png" alt="Project 2 Bottom Image"> -->
+                </div>
+                <div class="content">
+                    <h3> Space today</h3>
+                    <p>A react project, that utilizes NASA's API. This project uses the photo of the day api and the neows API to retrieve photos of the day, and also to display passing meteors. meteors are displayed based on how close they are to passing earth.</p>
+                    <img src="NASAPOTD2.png" alt="Project 2 Bottom Image" class="small-image"> 
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="content">
+                    <h3>Gift smart</h3>
+                    <p>A React web application utilizing firebase authentication to create users, and firestore to store users info. the purpose of this app is to generate birthday gift ideas friends or family of the user the website stores interest of whoever you wish to create a birthday gift for and then utilizing a goole search api it generates birthday gift ideas</p>
+                    <img src="gs3.png" alt="Project 3 Image 3" class="small-image">
+                </div>
+                <div class="image-stack">
+                    <img src="GS1.png" alt="Project 3 Image 1">
+                    <img src="GS2.png" alt="Project 3 Image 2">
+                   
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="image-stack">
+                    <img src="Untitled design (3).jpg" alt="Project 4 Large Image">
+                </div>
+                <div class="content">
+                    <h3>Battle Tanks</h3>
+                    <h4>Currently working on</h4>
+                    <p>An online pvp video game utilizing NFT'S. Made in unity, users in the game will have multiple tanks they can buy, or unlock in the wave mode. tanks will be used in PVP aainst other players </p>
+                    <img src="Untitled design (4).jpg" alt="Project 4 Small Image" class="small-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+        
+    
+    <section id="contact" class="section">
+        <h2>Resume</h2>
+        <a href="Okojie Benjamin Resume.pdf" download>Download My Resume</a>
+        <h2>Leave a message</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                
+                <textarea id="message" name="message" required placeholder="Leave a message"></textarea>
+            </div>
+            <button type="button" onclick="SendMail()">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Benjamin Okojie. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
