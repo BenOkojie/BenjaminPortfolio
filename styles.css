@@ -219,3 +219,11 @@ footer {
 #contact-form button:hover {
     background-color: #333; /* Slightly lighter black for hover effect */
 }
+a:link {
+    color: rgb(42, 105, 173);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(27, 166, 27);
+  }
